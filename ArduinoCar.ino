@@ -10,7 +10,8 @@ void setup()
 
 void loop()
 {
-  if(Serial.available() > 0){ 
+  if(Serial.available() > 0)
+  { 
     command = Serial.read(); 
    // Stop(); //initialize with motors stoped
     //Change pin mode only if new command is different from previous.   
