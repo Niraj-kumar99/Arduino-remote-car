@@ -8,7 +8,8 @@ void setup()
   pinMode(7,OUTPUT);
 }
 
-void loop(){
+void loop()
+{
   if(Serial.available() > 0){ 
     command = Serial.read(); 
    // Stop(); //initialize with motors stoped
