@@ -36,7 +36,7 @@ void loop()
   } 
 }
 
-void forward()
+void forward()    //comand for forward movement 
 {
   digitalWrite(4,HIGH);
   digitalWrite(5,LOW);
