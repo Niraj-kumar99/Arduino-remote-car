@@ -18,7 +18,7 @@ void loop()
     //Serial.println(command);
     switch(command)
     {
-    case 'F':  
+    case 'F':  //for forward movement
       forward();
       break;
     case 'B':  
