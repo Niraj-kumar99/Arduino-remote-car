@@ -16,7 +16,8 @@ void loop()
    // Stop(); //initialize with motors stoped
     //Change pin mode only if new command is different from previous.   
     //Serial.println(command);
-    switch(command){
+    switch(command)
+    {
     case 'F':  
       forward();
       break;
