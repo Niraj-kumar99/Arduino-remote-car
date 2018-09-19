@@ -1,5 +1,6 @@
 char command;
-void setup() {       
+void setup() 
+{       
   Serial.begin(9600);  //Set the baud rate to your Bluetooth module.
   pinMode(4,OUTPUT);
   pinMode(5,OUTPUT);
